@@ -1,0 +1,155 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+}
+.title-DeletePerson{
+    width: 600px;
+    height: 80px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+
+}
+
+.popup-box p{
+    margin-left: 15%;
+    margin-top: 30px;
+    width: 500px;
+    display: block;
+}
+
+.OK-DeletePerson{
+    width: 30%;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 30px;
+    background-color: #FFDD00;
+    border: none;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-top: 65px;
+}
+.OK2-DeletePerson{
+    width: 30%;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 30px;
+    background-color:   #FFFFFF;
+    border: 3px solid #E0E0E0;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 65px;
+}
+
+.popup-box-DeletePerson {
+    position: fixed;
+    background: #00000093;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+  
+.box-DeletePerson {
+    position: relative;
+    width: 700px;
+    margin: 0 auto;
+    height: 400px;
+    margin-top: calc(100vh - 80vh);
+    background: #fff;
+    border-radius: 30px;
+    padding: 20px;
+    border: 1px solid #999;
+    overflow: auto;
+}
+
+.box-DeletePerson input{
+    border: 2px solid #E0E0E0;
+}
+.close-icon-DeletePerson { 
+    right: calc(15% - 30px);
+    top: calc(100vh - 85vh - 33px);
+    background: #ededed;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #999;
+    font-size: 20px;
+}
+.CloseButton-DeletePerson{
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    margin-left: 97%;
+    margin-top: -90px;
+    display: block;
+    
+}
+.deteil{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 5%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+   
+}
+.deteil p{
+    padding-top:    15px;
+}
+.input1{
+    width: 80px;
+    height: 45px;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding-left:15px;
+   
+    margin: 10px;
+}
+.save-test__empty{
+    display: flex;
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+.save-test__nameTest{
+    width: 600px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 5%;
+   
+
+}
+.saveTest{
+    margin-left: 5%;
+    width: 600px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color:#FFDD00 ;
+    font-weight: bold;
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.butAddError{
+    background-color: #FFDD00;
+    margin-left: 75%;
+   
+}
+

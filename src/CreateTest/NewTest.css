@@ -1,0 +1,129 @@
+.big_text-NewTest1{
+    width: 100%;
+    height: 100px;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    outline: none;
+}
+
+.setName-NewTest1{
+    width: 300px;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    height: 40px;
+}
+
+.new-test{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+
+}
+
+.new-test__list-error{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.new-test__task{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+}
+.new-test__empty{
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.butAddError-newTest{
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    background-color: #FFDD00;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    padding:7px;
+    border: none;
+    width: 100px;
+    height:50px;
+    border-radius: 30px;
+    margin-left: 75%;
+    margin-bottom: 10px;
+}
+.new-test__error-description{
+    background-color: #ffffff;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding: 30px;
+    margin: 20px 0 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+.new-test__error-description__add-error{
+    background-color: #FFDD00;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    float: right;
+    outline: none;
+}
+
+.DrugAndDrop{
+    width: 100%;
+    height: 200px;
+    background-color: #E0E0E0;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    padding-top: 30px;
+}
+
+.DrugAndDrop p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.dropzone{
+    background-image: url("/public/Pict/DrugAndDrop.png");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 96px;
+    width: 96px;
+    margin:0 auto;
+}
+
+.new-test__remove-img{
+    width: 250px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: #808080;
+    color: #ffffff;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}

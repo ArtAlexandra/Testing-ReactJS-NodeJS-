@@ -1,0 +1,117 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+
+}
+.new-persone__popup-box{
+  position: fixed;
+  background: #00000093;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+
+
+.new-persone__box {
+  position: relative;
+  width: 750px;
+  margin: 0 auto;
+  height: 530px;
+  margin-top: calc(100vh - 92vh);
+  background: #fff;
+  border-radius: 30px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+}
+
+
+.new-persone__box__title{
+   
+  width: 90%;
+  height: 12%;
+  margin-left: 10%;
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+}
+
+
+.new-persone__box__close-button{
+   
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: 3%;
+  margin-top: -90px;
+  display: block;
+}
+
+
+
+
+.new-persone__box__select{
+   
+    border-radius: 30px;
+    width: 80%;
+    height: 50px;
+  
+    margin-left: 10%;
+    margin-top: 20px;
+    border:2px solid #E0E0E0;
+    padding-left:30px;
+  
+   
+}
+.new-persone__box__button{
+    width: 80%;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 25px;
+    background-color: #FFDD00;
+    border: none;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+
+  
+.new-persone__box__input{
+    border-radius: 30px;
+    height: 50px;
+    width: 80%;
+    margin-left:10%;
+    margin-top: 20px;
+    padding-left: 30px;
+    border: 2px solid #E0E0E0;
+    outline:none;
+}
+.new-persone__box__input:focus-within {
+    border: 2px solid #FFDD00;
+}
+  
+  
+.new-persone__input_error{
+   
+  border: 2px solid #D8513C;
+  background: url("/public/Pict/Error.png") no-repeat scroll  ;
+  background-position: right 30px center;
+}
+.new-person__box__error{
+  height: 30px;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: -20px;
+}
+.new-person__box__error p{
+  background: url("/public/Pict/Error.png") no-repeat scroll  ;
+  padding-left: 30px;
+  color: #D8513C;
+}

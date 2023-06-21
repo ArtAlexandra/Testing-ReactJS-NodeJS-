@@ -1,0 +1,73 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.delete-person__popur-box {
+    position: fixed;
+    background: #00000093;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+ 
+}
+
+
+.delete-person__box {
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+    height: 250px;
+    margin-top: calc(100vh - 85vh + 100px);
+    background: #fff;
+    border-radius: 30px;
+    padding: 20px;
+    border: 1px solid #999;
+    overflow: auto;
+}
+
+
+.delete-person__box__title{
+   
+    width: 80%;
+    margin-left: 10%;
+    margin-top:10px;
+}
+
+.delete-person__box__title h1{
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    padding-left: 15%;
+}
+
+
+.delete-person__box__delete{
+    width: 30%;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 25px;
+    background-color: #FFDD00;
+    border: none;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-top: 30px;
+  
+}
+.delete-person__box__cancel{
+    width: 30%;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 25px;
+    background-color:   #FFFFFF;
+    border: 3px solid #E0E0E0;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+  
+ 

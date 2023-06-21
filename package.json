@@ -1,0 +1,64 @@
+{
+  "name": "w3",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@bucky24/react-canvas": "^2.0.0",
+    "@fontsource/montserrat": "^4.5.14",
+    "@tailwindcss/forms": "^0.5.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.2.3",
+    "cors": "^2.8.5",
+    "fabric": "^5.2.4",
+    "file-loader": "^6.2.0",
+    "handy-svg": "^1.0.8",
+    "helmet": "^7.0.0",
+    "konva": "^9.0.2",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.6.0",
+    "react-calendar": "^4.0.0",
+    "react-custom-alert": "^1.0.4",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.1",
+    "react-image-crop": "^10.0.9",
+    "react-image-marker": "^1.2.0",
+    "react-konva": "^18.2.8",
+    "react-konva-utils": "^1.0.4",
+    "react-router-dom": "^6.4.5",
+    "react-scripts": "5.0.1",
+    "react-sketch": "^0.5.1",
+    "reactjs-popup": "^2.0.5",
+    "url-loader": "^4.1.1",
+    "use-image": "^1.1.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://127.0.0.1:3001",
+  "homepage": "."
+}

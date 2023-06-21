@@ -1,0 +1,141 @@
+.main{
+    display: flex;
+}
+
+
+.come__navbar{
+    background-color: #ffffff;
+    font-size: 18px;
+    max-height: 100px;
+    max-width: 100%;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+.come__navbar img{
+    margin: 0px auto;
+    display: block;
+}
+
+
+
+.letter{
+    width: 40%;
+    height: 40%;
+    margin-left:10%;
+    margin-top: 100px;
+}
+
+.letter img{
+    width: 40%;
+    height: 40%;
+    margin-left: 130px;
+}
+
+
+.letter__text{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+}
+
+
+
+
+.login{
+    background-color: white;
+    width: 35%;
+    height: 350px;
+    border-radius: 20px;
+    margin-left:50px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    margin-top: 70px;
+}
+
+
+.login__button{
+    width: 80%;
+    height: 45px;
+    margin-left: 10%;
+    border-radius: 30px;
+    padding: 2%;
+    background-color:  #FFDD00;
+    font-weight: bold;
+    border: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.login__link{
+    margin-top:10px;
+    position: relative;
+    margin-left: 62%;
+    text-decoration: underline;
+    cursor: pointer;
+
+
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.login__text{
+    margin-top: 30px;
+    text-align: center;
+    border: none;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+
+.login__input{
+    
+    height: 50px;
+    width: 80%;
+    margin-left:10%;
+    margin-top: 20px;
+    padding-left: 30px;
+    border-radius: 30px;
+    border: 2px solid #E0E0E0;
+    outline:none;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+.login__input:focus-within {
+    border: 2px solid #FFDD00;
+}
+.login__input_error{
+   border: 2px solid #D8513C;
+}
+
+.login__error{
+    height: 20px;
+    margin-bottom: -15px;
+    font-size: 14px;
+    margin-left: 10%;
+}
+
+.login__error p{
+    color: #D8513C;
+   
+}
+.login__error_text{
+    background: url("/public/Pict/Error.png") no-repeat scroll  ;
+    background-position: left ;
+}
+

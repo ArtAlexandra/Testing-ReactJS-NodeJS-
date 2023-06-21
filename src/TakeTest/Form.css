@@ -1,0 +1,109 @@
+.form{
+   
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+
+.saveTest-FormCreateTest{
+    display: inline-block;
+    margin-left: 83%;
+    background-color: #FFDD00;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    
+}
+
+.saveTest-FormCreateTest button{
+    margin-left: 15px;
+    margin-top: 12px;
+    background-color: #FFDD00;
+    border: none;
+    font-weight: bold;
+
+}
+.title-form{
+    margin-top: 30px;
+    margin-left: 81.5%;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    background-color: darkgray;
+
+}
+.title-form p{
+    width: 100px;
+    display: inline;
+    padding-top: 10px;
+   
+}
+
+
+.title-form img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    z-index: 2;
+ 
+}
+.title-form2{
+    background-color: #FFDD00;
+    font-weight:bold;
+    width: 50px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    margin: 5px;
+    
+}
+.title-form3{
+    background-color: #FFFFFF;
+    width: 50px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    margin: 5px;
+}
+
+.body-form{
+    
+    margin-top: 10px;
+    flex: 80%;
+ 
+}
+.footer-form button{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    margin-left: 86.2%;
+    margin-top: 10px;
+    background-color: #FFDD00;
+    border: 0 none;
+    font-weight: bold;
+}
+
+
+
+.DoTest{
+    width: 100%;
+}
+.Picture{
+    
+    border-radius: 30px;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+   
+}
